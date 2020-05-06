@@ -989,6 +989,7 @@ header + main {
 main {
   overflow: auto;
   z-index: 2;
+  background: white;
   background-image: url("/images/fon.jpg");
   position: relative;
 }
