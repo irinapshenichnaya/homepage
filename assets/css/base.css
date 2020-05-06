@@ -234,6 +234,13 @@ article {
 .avatar{
     width:100%;
 }
+.social a {
+    width: 50%;
+    display: ruby-base;
+}
+h1{
+    text-align: center;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     article {
         width: 723px;
