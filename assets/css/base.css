@@ -511,6 +511,7 @@ article {
   max-width: 15rem;
   display: block;
   flex: 1 0 auto;
+  width: 100%;
 }
 @media only screen and (max-width: 1199px) {
   .avatar-wrapper {
@@ -990,11 +991,15 @@ main {
   overflow: auto;
   z-index: 2;
   background: white;
-  background-image: url("images/fon.jpg"); 
+  background-image: url("../images/fon.png");
+  background-size: contain;
   position: relative;
 }
 main:nth-last-child(3) {
   margin-bottom: 50vh;
+}
+.icon {
+    width: 15px;
 }
 footer {
   height: 50vh;
